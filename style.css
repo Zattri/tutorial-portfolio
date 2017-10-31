@@ -1,0 +1,136 @@
+/* Import and add custom background */
+
+/* Body CSS */
+/* ------------------------------------------------------------------ */
+
+body {
+  background-image: url("food.png");
+  margin-left: 5pt;
+  margin-right: 5pt;
+}
+
+/* ------------------------------------------------------------------ */
+/* Navbar CSS */
+
+ul {
+  margin-left: 5pt;
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff6ea;
+  opacity: 95%;
+  font-family: 'Eagle Lake', cursive;
+  font-size: 16pt;
+  margin-bottom: 5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(226, 50, 37);
+  transition-duration: 0.3s;
+}
+
+/* ------------------------------------------------------------------ */
+/* Font CSS */
+
+.pageHeader {
+  margin-left: 5pt;
+  margin-bottom: 0pt;
+  margin-top: 10px;
+  font-size: 36pt;
+  font-family: 'Eagle Lake', cursive;
+  color: rgb(226, 50, 37);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.pageSubhead {
+  margin-left: 5pt;
+  margin-top: 0pt;
+  margin-bottom: 1pt;
+  font-size: 20pt;
+  font-family: 'Eagle Lake', cursive;
+  color: rgb(226, 50, 37);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.pageText {
+  margin-left: 5pt;
+  margin-bottom: 1pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 16pt;
+  font-family: 'Contrail One', cursive;
+}
+
+.shade {
+  margin-left: 25pt;
+  margin-right: 25pt;
+  opacity: 95%;
+  border-radius: 15px;
+  background: #fff6ea;
+}
+
+/* ------------------------------------------------------------------ */
+/* Footer CSS */
+.footer {
+  margin-left: 0pt;
+  margin-right: 0pt;
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+}
+
+/* ------------------------------------------------------------------ */
+/* Social Icon CSS */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #0077B5;
+  color: white;
+  width: 20px;
+  border-radius: 50%;
+}
+
+/* ------------------------------------------------------------------ */
