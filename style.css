@@ -12,8 +12,7 @@ body {
 /* ------------------------------------------------------------------ */
 /* Navbar CSS */
 
-ul {
-  margin-left: 5pt;
+.nav {
   border-radius: 5px;
   list-style-type: none;
   margin: 0;
@@ -23,14 +22,13 @@ ul {
   opacity: 95%;
   font-family: 'Eagle Lake', cursive;
   font-size: 16pt;
-  margin-bottom: 5px;
 }
 
-li {
+.nav-li {
   float: left;
 }
 
-li a {
+.nav-li a {
   display: block;
   color: black;
   text-align: center;
@@ -38,7 +36,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.nav-li a:hover {
   background-color: rgb(226, 50, 37);
   transition-duration: 0.3s;
 }
@@ -60,6 +58,7 @@ li a:hover {
   margin-left: 5pt;
   margin-top: 0pt;
   margin-bottom: 1pt;
+  padding-left: 5px;
   font-size: 20pt;
   font-family: 'Eagle Lake', cursive;
   color: rgb(226, 50, 37);
@@ -68,9 +67,10 @@ li a:hover {
 
 .pageText {
   margin-left: 5pt;
-  margin-bottom: 1pt;
+  margin-bottom: 10pt;
   padding-top: 2px;
   padding-bottom: 2px;
+  padding-left: 5px;
   font-size: 16pt;
   font-family: 'Contrail One', cursive;
 }
@@ -83,17 +83,44 @@ li a:hover {
   background: #fff6ea;
 }
 
+
+/* ------------------------------------------------------------------ */
+/* Post CSS */
+
+.blogShort {
+  border-bottom:1px solid #ddd;
+  margin-bottom: 20pt;
+}
+
 /* ------------------------------------------------------------------ */
 /* Footer CSS */
 .footer {
   margin-left: 0pt;
   margin-right: 0pt;
+  margin-top: 20px;
   width: 100%;
+  list-style-type: none;
+  padding: 0;
+  height: 60px;
+  background-color: #fff6ea;
+  overflow: hidden;
   display: inline-block;
-  margin: 2em 0;
-  height: 70px;
-  background-color: #999;
 }
+
+.footer-li {
+  float: left;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Contrail One', cursive;
+}
+
+.footer-social {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* Social Icon CSS */
