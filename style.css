@@ -4,7 +4,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-  background-image: url("food.png");
+  /* background-image: url("food.png"); */
   margin-left: 5pt;
   margin-right: 5pt;
 }
@@ -51,7 +51,7 @@ body {
   font-size: 36pt;
   font-family: 'Eagle Lake', cursive;
   color: rgb(226, 50, 37);
-  text-shadow: 2px 2px rgb(0, 0, 0);
+  text-shadow: 2px 2px black;
 }
 
 .pageSubhead {
@@ -63,6 +63,11 @@ body {
   font-family: 'Eagle Lake', cursive;
   color: rgb(226, 50, 37);
   text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.fontLobster {
+  font-family: 'Lobster', cursive;
+  font-size: 18pt;
 }
 
 .pageText {
@@ -90,6 +95,7 @@ body {
 .blogShort {
   border-bottom:1px solid #ddd;
   margin-bottom: 20pt;
+  padding-right: 5px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -161,3 +167,13 @@ body {
 }
 
 /* ------------------------------------------------------------------ */
+
+.testHeading {
+  color: red;
+}
+
+#testId {
+  color: blue;
+  font-size: 30pt;
+  font-weight: bold;
+}
