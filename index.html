@@ -15,11 +15,11 @@
   <body>
 
     <!-- Nav bar -->
-    <ul>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
+    <ul class="nav">
+      <li class="nav-li"><a class="active" href="#home">Home</a></li>
+      <li class="nav-li"><a href="#news">News</a></li>
+      <li class="nav-li"><a href="#contact">Contact</a></li>
+      <li class="nav-li"><a href="#about">About</a></li>
     </ul>
 
 
@@ -30,37 +30,50 @@
     </div>
 
 
-    <!-- Text section -->
-    <div class="shade">
+    <!-- Basic Text section -->
+    <div class="shade blogShort">
       <p class="pageText">
         I've got me some example text to test out this font <br>
         Look how awesome this thing is, isn't it great
-      
       </p>
     </div>
 
 
     <!-- Basic post with padding and formatting -->
+    <div class="blogShort">
+      <article class="shade">
+        <h1 class="pageSubhead">Mom's Spaghetti Recipe</h1>
+        
+        <p class="pageText">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+          five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+          of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+          Lorem Ipsum.
+        </p>
 
-    <!-- Image / media links -->
+        <p class="pageText">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+          five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+          of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+          Lorem Ipsum.
+        </p>
 
+        <br>
+
+        <iframe width="45%" height="35%" src="https://www.youtube.com/embed/eQgIwwKmjdo" frameborder="0" gesture="media" style="padding-left: 6pt; padding-bottom: 6pt;"allowfullscreen></iframe>
+        <img src="spaghetti.jpg" alt="Mom's Spaghetti" width="45%" height="35%" style="float:right;">
+      </article>
+    </div>
 
     <!-- Simple footer -->
-    <!-- Needs fix -->
-    <footer class="footer">
-        <div class="copyright">
-          <p>&copy 2013 - Organisation</p>
-        </div>
-        <div class="social">
-          <a href="#" class="support">Contact Us</a>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-        </div>
-      </footer>
-    <!-- Social button links -->
-
-
+      <ul class="footer">
+        <li class="footer-li"><p>&copy 2017 - Ollie's Cooking Emporium</p></li>
+        <li class="footer-social"><a href="#" class="fa fa-facebook"></a></li>
+        <li class="footer-social"><a href="#" class="fa fa-twitter"></a></li>
+        <li class="footer-social"><a href="#" class="fa fa-linkedin"></a></li>
+      </ul>
 
   </body>
 
